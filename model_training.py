@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 # Reading a data for model building
-data = pd.read_csv('path/dataset.csv')
+data = pd.read_csv('path/dataset_for model.csv')
 
 # Splitting the data into training and testing sets
 X = data.drop('label', axis=1)
